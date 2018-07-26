@@ -36,5 +36,5 @@ func Worker() error {
  }
  ````
 
-See the [Godoc]() for more details 
+See the [Godoc](https://godoc.org/github.com/efixler/multierror) for details and more examples. 
 
