@@ -21,7 +21,7 @@ to the caller.
 
 ````
 import (
-	github.com/efixler/multierror
+	"github.com/efixler/multierror"
 )
 
 func Worker() error {
