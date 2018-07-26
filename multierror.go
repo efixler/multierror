@@ -19,6 +19,8 @@ var (
 
 type MultiError []error
 
+// Use new to instantiate a new MultiError or just
+//	make(MultiError, 0)
 func New(errors ...error) MultiError {
 	me := make(MultiError, len(errors))
 	for i := 0; i < len(errors); i++ {
